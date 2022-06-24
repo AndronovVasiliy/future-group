@@ -1,0 +1,122 @@
+.book {
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    height: 300px;
+    background-color: #dde5e5;
+
+}
+
+.button_new_portion {
+    width: 200px;
+    border-radius: 10px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.list_book {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.book_img {
+    width: 50%;
+    height: 150px;
+    margin-top: 10px;
+    background-position: center;
+    background-size: contain;
+    box-shadow: 8px 8px 10px black;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.description_book {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.name_book {
+    margin: 10px 5px 5px 0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    height: 40px;
+}
+
+.autor_book {
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: auto;
+    color: gray;
+    text-align: start;
+}
+
+.categories_book {
+    font-size: 12px;
+    height: 15px;
+}
+
+.book_page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.book_page_img_area {
+    display: flex;
+    background-color: #dde5e5;
+    height: 660px;
+    width: 450px;
+    justify-content: center;
+}
+
+.book_page_img {
+    width: 70%;
+    margin: 80px 0;
+    background-position: center ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 8px 8px 10px black;
+}
+
+.book_page_description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: yellowgreen;
+    box-sizing: border-box;
+    padding: 80px 40px;
+    flex: 1 1 60%;
+
+    p {
+        margin: 0;
+    }
+}
+
+.description_of_the_content_book {
+    text-align: start;
+}
+
+.block_autors {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.autor_page_book {
+    font-weight: bold;
+}
