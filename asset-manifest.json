@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/future-group/static/css/main.68faacc0.css",
+    "main.js": "/future-group/static/js/main.2f7f7686.js",
+    "static/media/header.jpg": "/future-group/static/media/header.8cd6e491dad1c3418e8c.jpg",
+    "static/media/Spinner-1s-200px.svg": "/future-group/static/media/Spinner-1s-200px.86da326069c929242e94761450b8b84e.svg",
+    "index.html": "/future-group/index.html",
+    "main.68faacc0.css.map": "/future-group/static/css/main.68faacc0.css.map",
+    "main.2f7f7686.js.map": "/future-group/static/js/main.2f7f7686.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68faacc0.css",
+    "static/js/main.2f7f7686.js"
+  ]
+}
